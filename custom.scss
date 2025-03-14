@@ -11,7 +11,7 @@ $new-font-sizes: (
 );
 $font-sizes: map-merge($font-sizes, $new-font-sizes);
 
-@import'./scss/bootstrap.scss';
+
 
 $new-border-width: (
     6: 6px,
@@ -21,6 +21,7 @@ $new-border-width: (
     10: 10px,
 
 );
-$border-width: map-merge($border-width, $new-border-width);
+$border-widths: map-merge($border-widths, $new-border-width);
+
 
 @import'./scss/bootstrap.scss'
